@@ -1,0 +1,15 @@
+{"_id":"1","description":"Exterior: Wet Steam Wash","packageid":"1","price":200.00}
+{"_id":"2","description":"Interior: Vacuum cleaning","packageid":"1","price":200.00}
+{"_id":"3","description":"Diggi: Vacuum cleaning","packageid":"1","price":200.00}
+{"_id":"4","description":"Dash-board: Clean & Polish*","packageid":"1","price":200.00}
+{"_id":"5","description":"Alloy: Steam Cleaning","packageid":"1","price":200.00}
+{"_id":"6","description":"Tyre: Type Polish","packageid":"1","price":200.00}
+{"_id":"7","description":"Engine: Dry Steam Wash*","packageid":"2","price":200.00}
+{"_id":"8","description":"Door-beats: Dry Cleaning","packageid":"2","price":200.00}
+{"_id":"9","description":"Dash-board: Clean & Polish*","packageid":"2","price":200.00}
+{"_id":"10","description":"Alloy: Steam Cleaning","packageid":"2","price":200.00}
+{"_id":"11","description":"Engine: Dry Steam Wash*","packageid":"3","price":200.00}
+{"_id":"12","description":"Interior: Vacuum cleaning","packageid":"3","price":200.00}
+{"_id":"13","description":"Alloy: Steam Cleaning","packageid":"3","price":200.00}
+{"_id":"14","description":"Door-beats: Dry Cleaning","packageid":"3","price":200.00}
+{"_id":"15","description":"Rubbing & Polishing: Exterior as applicable","packageid":"3","price":200.00}

@@ -2,11 +2,6 @@ package com.carwash.schedulewashsvc.payload.resquest;
 
 import java.util.Date;
 
-import javax.validation.constraints.NotBlank;
-import javax.validation.constraints.Size;
-
-import org.springframework.data.annotation.CreatedDate;
-
 public class SchedulePutRequest {
 	
 	

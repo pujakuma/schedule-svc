@@ -44,7 +44,7 @@ public class ScheduleController {
 	    	}*/
 	    	ScheduleWash response =washservice.createUserProfile(request);
 	    	String id =response.getScheduleId();
-	    	String message=id + "successfully created";
+	    	String message= id +""+" Successfully created ";
 	    	return new ResponseEntity<>( new MessageResponse(message),HttpStatus.CREATED);
 	    } catch (Exception e) {
 	      return new ResponseEntity<>(null, HttpStatus.EXPECTATION_FAILED);
@@ -52,10 +52,10 @@ public class ScheduleController {
 	  }
 
 	  @GetMapping("/getschedule/{userid}")
-	  public ResponseEntity<ScheduleWash> getScheduleById(@PathVariable("userid") String id) {
+	  public ResponseEntity<ScheduleWash> getScheduleByUserId(@PathVariable("userid") String id) {
 		 
 		  Optional<ScheduleWash> response = respository.findByUserId(id);
-		  ScheduleWash userprofile= response.get();
+		 // ScheduleWash userprofile= response.get();
 		 
 	    if (response.isPresent()) {
 	      return new ResponseEntity<>(response.get(), HttpStatus.OK);
@@ -67,7 +67,8 @@ public class ScheduleController {
 	  public ResponseEntity<MessageResponse> deleteSchedule(@PathVariable("scheduleId") String id) {
 	    try {
 	    	//UserProfile response =profileService.deleteProfile(id);
-	    	Optional<ScheduleWash> response = respository.findById(id);
+	    	//Optional<ScheduleWash> response = 
+	    			respository.findById(id);
 	    	
 	    	respository.deleteById(id);
 	    	
